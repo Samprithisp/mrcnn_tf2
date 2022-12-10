@@ -99,7 +99,7 @@ class CustomDataset(utils.Dataset):
         subset: Subset to load: train or val
         """
         # Add classes. We have only one class to add.
-        self.add_class("object", 1, "box")
+        self.add_class("object", 1, "ship")
         # self.add_class("object", 2, "side_box")
 
         # Train or validation dataset?
